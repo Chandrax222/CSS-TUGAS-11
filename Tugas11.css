@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(219, 217, 217);
+    position: relative;
+}
+
+nav, ul, li {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+li {
+    display: inline-block;
+} 
+
+a {
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: white;
+}
+  
+a:hover {
+    background-color: #333;
+    color: #2446dfb9;
+} 
+
+h1 {
+    font-size: large;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.heading,p {
+    column-count: 4;    
+    column-fill: balance;
+    column-gap: 8px;
+    column-rule: 2px solid black; 
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+
+
+
